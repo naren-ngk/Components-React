@@ -3,7 +3,7 @@ import classNames from 'classnames';
 function Button({
     children, primary,
     secondary, success,
-    warning, danger, 
+    warning, danger,
     outline, rounded,
     ...rest
 }) {
@@ -42,6 +42,6 @@ Button.propTypes = {
             return new Error('Only one variation should be true');
         }
     },
-}; 
+};
 
 export default Button;
